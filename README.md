@@ -93,7 +93,10 @@ Integração com plataforma Clyvo Vet (próximas sprints)
 
 
 # Integrantes
-Nathan G.P. Mendes - rm564666
+Nathan G.P. Mendes - Rm564666
+Gustavo Araujo Da Silva - Rm566526
+Guilherme Santos Fonseca - Rm564232
+Anthony De Sousa Henrique - Rm566188
 
-#Licença
+# Licença
 Projeto acadêmico desenvolvido para o FIAP Challenge 2026 em parceria com a CLYVO VET.
