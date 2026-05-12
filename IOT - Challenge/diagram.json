@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "PawCare Monitor",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 100, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": 0,
+      "left": 320,
+      "attrs": { "temperature": "28", "humidity": "70" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 234.4, "left": 319.02, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:D15", "dht1:SDA", "green", [] ],
+    [ "esp:3V3", "dht1:VCC", "red", [] ],
+    [ "esp:GND.1", "dht1:GND", "black", [] ],
+    [ "esp:D14", "pir1:OUT", "yellow", [] ],
+    [ "esp:3V3", "pir1:VCC", "red", [] ],
+    [ "esp:GND.2", "pir1:GND", "black", [] ]
+  ],
+  "dependencies": {}
+}
